@@ -4,7 +4,7 @@ require("dotenv").config({
 });
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://angry-galileo-a8762c.netlify.com",
+  URL: NETLIFY_SITE_URL = "https://tsv-zorneding-volleyball.netlify.com",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
